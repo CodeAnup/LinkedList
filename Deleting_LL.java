@@ -24,7 +24,7 @@ public class Deleting_LL {
        }
        return head;
     }
-    public static Node removeHead(Node head){
+    public static Node removeHead(Node head){ //To remove the head of LL
       Node temp=head;
       if(head==null){
           return head;
@@ -32,7 +32,7 @@ public class Deleting_LL {
       temp=temp.next;
       return head;
     }
-    public static Node removeTail(Node head){
+    public static Node removeTail(Node head){ //To remove the tail of LL
         Node temp=head;
         if(head==null || head.next==null){
             return head;
