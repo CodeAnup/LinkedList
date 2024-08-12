@@ -37,10 +37,10 @@ public class Deleting_LL {
         if(head==null || head.next==null){
             return head;
         }
-        while(temp.next.next!=null){
+        while(temp.next!=null){
             temp=temp.next;
         }
-        return temp.next;
+        return temp;
     }
     public static void main(String[] args) {
         int arr[]={2,3,4,5,6};
